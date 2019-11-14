@@ -1,0 +1,22 @@
+{
+  "name": "randomwikipedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.js",
+  "scripts": {
+    "linter": "./node_modules/.bin/eslint -c .eslintrc.js api/ lib/",
+    "deploy": "now deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "twit": "^2.2.11"
+  }
+}
