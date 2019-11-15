@@ -1,6 +1,6 @@
 # RandomWikipedia
 
-Tweet random articles from Wikipedia using Twitter API, ZEIT Serverless, Easycron and Node.js
+Tweet random articles from Wikipedia every 8 hour using Twitter API, ZEIT Serverless, Easycron and Node.js
 
 ### Results
 
