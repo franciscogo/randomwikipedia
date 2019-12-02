@@ -46,6 +46,11 @@ module.exports = async (req, res) => {
       }),
     });
   } catch (error) {
-    return error;
+    return res.json({
+      status: 400,
+      body: JSON.stringify({
+        message: error,
+      }),
+    });
   }
 };
